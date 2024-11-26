@@ -1,61 +1,53 @@
- body {
-    2. color: white;
-    3. background: black;
-    4. margin: 0px;
-    5. font-family: "Chakra Petch", sans-serif;
-    6. margin-bottom: 100px;
-    7. }
-    8.
-    9. header {
-    10. border-bottom: solid 2px rgb(42, 122, 228);
-    11. padding: 20px;
-    12. font-size: 32px;
-    13. color: rgb(42, 122, 228);
-    14. }
-    15.
-    16. .chamada {
-    17. background: rgb(184, 156, 213);
-    18. padding-bottom: 80px;
-    19. padding-top: 80px;
-    20. display: flex;
-    21. justify-content: center;
-    22. }
-    23.
-    24. .chamada-texto {
-    25. margin-right: 5%;
-    26. }
-    27.
-    28. h1 {
-    29. font-size: 40px;
-    30. }
-    31.
-    32. p {
-    33. font-size: 20px;
-    34. }
-    35.
-    36. .categoria-videos {
-    37. display: flex;
-    38. overflow-x: auto;
-    39. gap: 10px;
-    40. }
-    41.
-    42. .categoria {
-    
-    43. padding-left: 20px;
-    44. padding-right: 20px;
-    45. margin-top: 50px;
-    46. }
-    47.
-    48. .categoria-videos img {
-    49. opacity: 0.5;
-    50. height: 200px;
-    51. }
-    52.
-    53. .categoria-videos img:hover {
-    54. opacity: 1.0;
-    55. border: 3px solid green;
-    56. }
-    57.
-    58. .categoria h2 {
-    59. color: rgb(42, 122, 228);
-    60. }
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Guiminamflix</title>
+</head>
+
+<body>
+    <header>GUIMINAMFLIX</header>
+
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>ATRAVÉS DO ARANHAVERSO</h1>
+            <p>#homem-aranha</p>
+        </div>
+
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="categoria">
+        <h2>Filmes e séries</h2>
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
+                <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
+                <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=FvRmEapoHRc">
+                <img src="https://img.youtube.com/vi/FvRmEapoHRc/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=Ipkw_hWW-Hw">
+                <img src="https://img.youtube.com/vi/Ipkw_hWW-Hw/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=d4DzMNGoyis">
+                <img src="https://img.youtube.com/vi/d4DzMNGoyis/maxresdefault.jpg" />
+            </a>
+        </div>
+    </section>
+
+</body>
+
+</html>
